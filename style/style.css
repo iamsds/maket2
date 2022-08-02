@@ -1,0 +1,12 @@
+@font-face{
+	font-family: 'georgiaz';
+	src:url("../fonts/georgiaz.ttf")format('truetype')
+}
+@font-face{
+	font-family:'MyriadPro';
+	src:url("../fonts/MyriadPro-LightIt.ttf")format('truetype');
+}
+@font-face{
+	font-family: 'georgia';
+	src:url("../fonts/georgia.ttf")format('truetype')
+}

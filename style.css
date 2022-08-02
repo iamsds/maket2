@@ -1,0 +1,409 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	width: 1150px;
+	height: 2000px;
+	margin: 0 auto;
+}
+.content .header{
+	width: 1150px;
+	height: 150px;
+}
+.content .header .htop{
+	width: 1150px;
+	height: 88px;
+}
+.content .header .hbottom{
+	width: 1150px;
+	height: 61px;
+}
+.content .header .htop .topleft{
+	width: 550px;
+	height: 88px;
+	float: left;
+}
+.content .header .htop .topright{
+	width: 550px;
+	height: 88px;
+	float: right;
+}
+.content .header .htop .topleft h1{
+	text-align: center;
+	font-size: 32px;
+	color: white;
+	line-height: 63px;
+	margin-top: 28px;
+	margin-left: 116px;
+	border-radius: 10px;
+	width: 182px;
+	height: 58px;
+	background-color: #bf3a16;
+
+}
+.content .header .htop .topright h1{
+	color: #252524;
+	font-family: 'georgiaz'; 	
+	margin-top: 47px;
+	margin-left: 180px;
+	font-size: 18px;
+}	
+.content .header .htop .topright h1 i{
+	color: #792913;
+}
+.content .header .hbottom ul{
+	list-style: none;	
+	height: 61px;
+}
+.content .header .hbottom ul li{
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'georgiaz';
+	float: left;
+	font-size: 16px;
+	margin: 2px;
+	width: 182px;
+	height: 60px;
+	background-color: #ebe9d8;
+	transition: all 0.4s;
+}
+.content .header .hbottom ul .active{
+	background-color: #d4c69c;
+}
+.content .header .hbottom ul .active a{
+	color: white;
+}
+.content .header .hbottom ul li a{
+	line-height: 60px;
+	text-decoration-line: none;
+	color: black;
+
+}
+.content .header .hbottom ul .act{
+	width: 110px;
+}
+.content .header .hbottom ul .act2{
+	width: 102px;
+}
+.content .header .hbottom ul li:hover{
+	background-color: #bf3a16;
+	border-radius: 1px;
+	font-size: 22px;
+}
+.content .header .hbottom ul li:hover a{
+	color: white;
+}
+.content .header .hbottom ul .act:hover{
+	background-color: #ebe9d8;
+}
+.content .header .hbottom ul .act2:hover{
+	background-color: #ebe9d8;
+}
+.content .menu{
+	width: 1150px;
+	height: 324px;
+}
+.content .menu .mleft{
+	width: 480px;
+	height: 324px;
+	float: left;
+}
+.content .menu .mright{
+	width: 666px;
+	height: 324px;
+	float: right;
+}
+.content .menu .mleft .about1{
+	color: #9e6756;
+	font-family: 'georgiaz';
+	margin-top: 67px;
+	margin-left: 142px;
+	font-size: 26px;
+}
+.content .menu .mleft .about2{
+	line-height: 65px;
+	margin-left: 150px;
+	width: 300px;
+	height: 65px;
+	font-size: 79px;
+}
+.content .menu .mleft .about3{
+	color: #bf3a16;
+	line-height: 45px;
+	text-align: center;
+	margin-left: 212px;
+	font-size: 79px;
+	width: 220px;
+	height: 55px;
+	
+}
+.content .menu .mleft .about4{
+	font-family: 'georgiaz';
+	font-size: 24px;
+	margin-left: 215px;
+}
+.content .menu .mright img{
+	width: 600px;
+	height: 322px;
+}
+.content .boxs{
+	height: 367px;
+	background-color: #ebe9d8;
+	border-top: 2px solid #ebe9d8;
+}
+.content .boxs .row {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 906px;
+	height: 315px;
+}
+.content .boxs .row .box1{
+	width: 301px;
+	height: 313px;
+	float: left;
+}	
+.content .boxs .row .box2{
+	width: 301px;
+	height: 313px;
+	float: left;
+}
+.content .boxs .row .box3{
+	width: 301px;
+	height: 313px;
+	float: right;
+
+}
+.content .boxs .row .box1 h1{
+	margin-top: 4px;
+	font-family: "georgia";
+	height: 30px;
+	font-size: 28px;
+	color: black;
+}
+.content .boxs .row .box1 h3{
+	height: 40px;
+	font-family: "georgia";
+	font-size: 18px;
+	color: #792913;
+}
+.content .boxs .row .box1 p{
+	color: #5b584c;
+	font-family: "georgia";
+	font-size: 14px;
+}
+.content .boxs .row .box1 img{
+	margin-top: 18px;
+	width: 77px;
+	height: 77px;
+	float: left;
+}
+.content .boxs .row .box1 h2{
+	float: right;
+	margin-top: 32px;
+	margin-right: 110px;
+	font-size: 14px;
+	font-family: "georgia";
+}
+.content .boxs .row .box1 .ssilka a{
+	margin-left: 14px;
+	text-decoration-line: none;
+	color: #bf3a16;
+	font-size: 14px;
+	font-family: "georgia";
+}
+.content .boxs .row .box2 h1{
+	margin-top: 4px;
+	font-family: "georgia";
+	height: 30px;
+	font-size: 28px;
+	color: black;
+}
+.content .boxs .row .box2 h3{
+	height: 40px;
+	font-family: "georgia";
+	font-size: 18px;
+	color: #792913;
+}
+.content .boxs .row .box2 h2{
+	height: 65px;
+	font-family: "georgia";
+	font-size: 14px;
+	color: #5b594c;
+}
+.content .boxs .row .box2 p{
+	color: #5b584c;
+	font-family: "georgia";
+	height: 118px;
+	font-size: 14px;
+}
+.content .boxs .row .box2 .ssilka a{
+	text-decoration-line: none;
+	color: #bf3a16;
+	font-size: 14px;
+	font-family: "georgia";
+}
+.content .boxs .row .box3 h1{
+	margin-top: 4px;
+	font-family: "georgia";
+	height: 30px;
+	font-size: 28px;
+	color: black;
+}
+.content .boxs .row .box3 h3{
+	height: 40px;
+	font-family: "georgia";
+	font-size: 18px;
+	color: #792913;
+}
+.content .boxs .row .box3 i{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.content .boxs .row .box3 a{
+	font-size: 14px;
+	color: #bf3a16;
+}
+.content .boxs .row .box3 form{
+	width: 282px;
+	height: 106px;
+	margin-top: 15px;
+	background-color: #bf3a16;
+	border-radius: 4px;
+}
+.content .boxs .row .box3 form h1{
+	margin-top: 2px;
+	margin-left: 17px;
+	font-size: 28px;
+	color: white;
+}
+.content .boxs .row .box3 form input{
+	width: 203px;
+	height: 22px;
+	margin-top: 13px;
+	margin-left: 17px;
+	border-radius: 5px;
+	border: none;
+}
+.content .boxs .row .box3 form button{
+	width: 44px;
+	height: 22px;
+	background-color: #f7931d;
+	border: none;
+	border-radius: 5px;
+}
+.content .boxs .row .box3 form a{
+	margin-top: 10px;
+	margin-left: 17px;
+	font-size: 14px;
+	color: white;
+}
+.content .servis{
+	height: 245px;
+	background-color: #dad5bb;
+	margin: 0 auto;
+	border: 1px solid #dad5bb;
+}
+.content .servis .row {
+	margin: 0  auto;
+	margin-top: 30px;
+	width: 906px;
+	height: 185px;
+}
+.content .servis .row .sbox1{
+	width: 300px;
+	height: 184px;
+	float: left;
+}
+.content .servis .row .sbox2{
+	width: 300px;
+	height: 184px;
+	float: left;
+}
+.content .servis .row .sbox3{
+	width: 300px;
+	height: 184px;
+	float: right;
+}
+.content .servis .row .sbox1 h1{
+	font-family: "georgia";
+	height: 40px;
+	font-size: 28px;
+	color: black;
+}
+.content .servis .row .sbox1 i{
+	margin-top: 10px;
+	color: #bf3a16;
+	font-size: 10px
+}
+.content .servis .row .sbox1 a{
+	color: #bf3a16;
+	font-size: 14px
+}
+.content .servis .row .sbox1 .more {
+	margin: 8px;
+}
+.content .servis .row .sbox1 .more a{
+	color: #5b594c;
+	font-size: 14px;
+}
+.content .servis .row .sbox2 h1{
+	font-family: "georgia";
+	height: 40px;
+	font-size: 28px;
+	color: black;
+}
+.content .servis .row .sbox2 i{
+	margin-top: 10px;
+	color: #bf3a16;
+	font-size: 10px
+}
+.content .servis .row .sbox2 a{
+	color: #bf3a16;
+	font-size: 14px
+}
+.content .servis .row .sbox2 .more2 {
+	margin: 8px;
+}
+.content .servis .row .sbox2 .more2 a{
+	color: #5b594c;
+	font-size: 14px;
+}
+.content .servis .row .sbox3 h1{
+	font-family: "georgia";
+	height: 40px;
+	font-size: 28px;
+	color: black;
+}
+.content .servis .row .sbox3 i{
+	margin-top: 10px;
+	color: #bf3a16;
+	font-size: 10px
+}
+.content .servis .row .sbox3 a{
+	color: #bf3a16;
+	font-size: 14px
+}
+.content .servis .row .sbox3 .more3 {
+	margin: 8px;
+}
+.content .servis .row .sbox3 .more3 a{
+	color: #5b594c;
+	font-size: 14px;
+}
+.content .intro .ileft{
+	margin-top: 20px;
+	margin-left: 130px;
+	float: left;
+	color: #5b594c;
+	font-family: "georgia";
+	font-size: 14px;
+}
+.content .intro .iright{
+	margin-top: 20px;
+	margin-right: 824px;
+	float: right;
+	font-size: 14px;
+	font-family: "georgia";
+	color: #bf3a16;
+}
